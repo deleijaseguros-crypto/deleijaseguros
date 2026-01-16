@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asesoría Financiera y Seguros | Planea tu Futuro</title>
+    <meta name="description"
+        content="Protege tu futuro con las mejores soluciones de seguros y planeación financiera. Asesoría personalizada.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/EdsonFaviconNew.png" type="image/png">
+    <link rel="shortcut icon" href="assets/EdsonFaviconNew.png" type="image/png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <!-- Left Logo -->
+            <div class="logo logo-left">
+                <a href="#">
+                    <img src="assets/EdsonLogo.png" alt="Logo Asesor" class="header-logo-img">
+                </a>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle">Planes <i
+                                class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#srv-vida"><i class="fas fa-shield-alt"></i> Seguro de Vida</a></li>
+                            <li><a href="#srv-retiro"><i class="fas fa-piggy-bank"></i> Plan de Retiro</a></li>
+                            <li><a href="#srv-educacion"><i class="fas fa-graduation-cap"></i> Educación</a></li>
+                            <li><a href="#srv-gmm"><i class="fas fa-heartbeat"></i> Gastos Médicos</a></li>
+                            <li><a href="#srv-mujer"><i class="fas fa-female"></i> Vida Mujer</a></li>
+                            <li><a href="#srv-ahorro"><i class="fas fa-coins"></i> Ahorro</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#calculadora">Calculadora (Retiro)</a></li>
+                    <li><a href="#calculadora-fiscal">Calculadora Fiscal</a></li>
+                    <li><a href="#testim">Comentarios</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right-group">
+                <a href="https://calendar.app.google/XCK49tJP5tUeQX9s6" target="_blank"
+                    class="btn btn-primary header-cta-btn"><i class="fas fa-calendar-alt"
+                        style="margin-right: 8px;"></i> Agenda tu Asesoría</a>
+                <a href="https://wa.me/528334407688?text=Hola,%20me%20interesa%20recibir%20una%20cotización%20personalizada%20sobre%20el%20plan%20de%20ahorro%20y%20me%20gustaría%20agendar%20una%20cita%20para%20conocer%20los%20detalles.%20¿Podrían%20ayudarme?"
+                    target="_blank" class="btn btn-whatsapp-header">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bio Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content" style="display: block; max-width: 1100px;">
+
+            <!-- SINGLE UNIFIED BOX (Blue Glass + Image Background) -->
+            <div class="hero-right-bio"
+                style="width: 100%; max-width: none; margin: 0; background: linear-gradient(rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)), url('assets/hero_bg.JPG'); background-size: cover; background-position: center; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); padding: 40px; border-radius: 24px; border: 1px solid rgba(148, 163, 184, 0.1);">
+
+                <!-- TOP HEADER ROW: Image (Left) + Bio (Right) -->
+                <div class="bio-header-row"
+                    style="display: flex; align-items: center; gap: 40px; margin-bottom: 50px; flex-wrap: wrap;">
+
+                    <!-- IMAGE (Left) -->
+                    <div class="bio-image-container"
+                        style="flex: 0 0 auto; width: 100%; max-width: 500px; text-align: center; margin: 0 auto;">
+                        <img src="assets/Bio.jpg" alt="Edson De Leija" class="hero-bio-img"
+                            style="width: 100%; max-width: 500px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); display: block;">
+                    </div>
+
+                    <!-- BIO TEXT (Right) -->
+                    <div class="bio-text-container" style="flex: 1; min-width: 300px; text-align: left;">
+                        <h2 style="text-align: left; margin-top: 0;">Sobre Mí</h2>
+                        <h3 style="text-align: left;">Edson De Leija</h3>
+                        <p class="role" style="text-align: left;">Asesor Profesional de Seguros</p>
+                        <p style="text-align: left;">Mi misión es ayudarte a construir un futuro sólido y tranquilo. No
+                            solo vendo seguros, diseño estrategias personalizadas que se adaptan a tu vida.</p>
+                        <ul class="values-list" style="justify-content: flex-start;">
+                            <li><i class="fas fa-check-circle"></i> Honestidad y Transparencia</li>
+                            <li><i class="fas fa-check-circle"></i> Acompañamiento de por vida</li>
+                            <li><i class="fas fa-check-circle"></i> Estrategias a medida</li>
+                        </ul>
+                        <div style="margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap;">
+                            <a href="https://www.instagram.com/deleijaseguros?igsh=MXViMWdreHd6eTk5cA%3D%3D&utm_source=qr"
+                                target="_blank" class="btn-social btn-instagram">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                            <a href="https://www.facebook.com/share/14Tj6b41yao/?mibextid=wwXIfr" target="_blank"
+                                class="btn-social btn-facebook">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STRATEGY CONTENT (Below Header, same container) -->
+                <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 40px;">
+                    <h2
+                        style="font-size: 2rem; margin-bottom: 20px; line-height: 1.2; font-family: 'Playfair Display', serif; text-align: left; color: #ffffff;">
+                        ¿Cómo puedo ayudarte? 🤝
+                    </h2>
+
+                    <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 20px; font-weight: 600;">
+                        Te ayudo a garantizar tu Libertad Financiera en Tiempo Récord. 🚀
+                    </h3>
+
+                    <p
+                        style="font-size: 1rem; color: #e2e8f0; margin-bottom: 30px; opacity: 0.95; text-align: left; line-height: 1.6;">
+                        Mi estrategia está diseñada para que tu dinero trabaje más duro que tú. En lugar de esperar
+                        décadas con el modelo tradicional, liquidamos tu meta en pocos años mediante aportaciones
+                        cómodas. Así, aprovechas el Interés Compuesto 📈 para multiplicar tu capital y obtienes Blindaje
+                        Inmediato 🛡️ desde el día uno.
+                    </p>
+
+                    <p
+                        style="text-align: center; font-style: italic; margin-bottom: 30px; color: #cbd5e1; font-size: 1.1rem; margin-top: 30px; border-left: 3px solid #60a5fa; padding-left: 20px; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 0 12px 12px 0;">
+                        ✨ "La meta no es ahorrar por siempre, sino vivir con la certeza de que tu dinero nunca dejará de
+                        crecer para ti."
+                    </p>
+
+                    <a href="#calculadora" class="btn btn-primary btn-block"
+                        style="background: #25d366; border: none; font-weight: 600; font-size: 1rem; padding: 18px; border-radius: 8px; box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3); text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: center; gap: 10px; max-width: 400px; margin: 0 auto;">
+                        <span>Haz la prueba tú mismo aquí</span> <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CALCULATOR Section (RELOCATED & UPDATED) -->
+    <section id="calculadora" class="section calculator-section">
+        <div class="container">
+            <div class="section-header" style="margin-bottom: 30px;">
+                <h2 style="color:var(--white); margin-bottom: 10px;">¿Sabes con cuánto te puedes retirar?</h2>
+                <p
+                    style="color: #ef9a9a; background-color: rgba(211, 47, 47, 0.15); display: inline-block; padding: 5px 15px; border-radius: 20px; font-weight: 600; margin-top: 5px; border: 1px solid rgba(211, 47, 47, 0.3);">
+                    Mira tus números reales en 10 segundos.</p>
+            </div>
+
+            <div class="ppr-calculator-container layout-3-cols">
+
+                <!-- COL 1: INPUTS (Datos) -->
+                <div class="ppr-col-control">
+                    <div class="ppr-card input-card">
+                        <div class="card-title">
+                            <i class="fas fa-user-edit"></i> Tus Datos
+                        </div>
+                        <p
+                            style="font-size: 0.9rem; color: #ef9a9a; background-color: rgba(211, 47, 47, 0.15); padding: 10px; border-radius: 8px; margin-bottom: 15px; text-align: center; font-weight: 600; border: 1px solid rgba(211, 47, 47, 0.3);">
+                            <i class="fas fa-arrow-down"></i> Ingresa tus datos aquí para ver tu proyección
+                        </p>
+
+                        <!-- 1. Edad Actual -->
+                        <div class="input-group">
+                            <label for="currentAge">Edad Actual</label>
+                            <input type="number" id="currentAge" placeholder="Ej. 28" min="18" max="70"
+                                oninput="if(this.value.length > 2) this.value = this.value.slice(0, 2);">
+                        </div>
+
+                        <!-- 2. Ahorro Mensual -->
+                        <div class="input-group">
+                            <label for="monthlyAmount">Ahorro Mensual ($)</label>
+                            <input type="number" id="monthlyAmount" placeholder="Ej. 3000" min="1000" step="500"
+                                oninput="if(this.value.length > 4) this.value = this.value.slice(0, 4);">
+                        </div>
+
+                        <!-- 3. Nombre Completo -->
+                        <div class="input-group">
+                            <label for="clientName">Nombre Completo</label>
+                            <input type="text" id="clientName" placeholder="Tu Nombre">
+                        </div>
+
+                        <!-- 4. Teléfono -->
+                        <div class="input-group">
+                            <label for="clientPhone">Teléfono</label>
+                            <input type="tel" id="clientPhone" placeholder="10 Dígitos" maxlength="10"
+                                oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)">
+                            <small id="phoneError"
+                                style="color: #d32f2f; font-weight: 700; display: none; margin-top: 5px;">*
+                                Obligatorio</small>
+                        </div>
+
+                        <button class="btn btn-primary btn-block" id="btnCalculate"
+                            style="margin-top: 25px; border-radius: 8px; font-weight: 700; box-shadow: 0 4px 15px rgba(13, 71, 161, 0.2);">
+                            <i class="fas fa-calculator"></i> Calcular Proyección
+                        </button>
+                    </div>
+                </div>
+
+                <!-- COL 2: VISUAL (Center - Charts + Slider + Protection) -->
+                <div class="ppr-col-visual">
+                    <div class="ppr-card locked-blur-red" id="visualCol">
+
+                        <!-- TITLE -->
+                        <div class="card-title"
+                            style="justify-content: center; border-bottom: none; margin-bottom: 5px;">
+                            <i class="fas fa-chart-line"></i> Crecimiento de tu Capital
+                        </div>
+
+                        <!-- Timeline Slider -->
+                        <div
+                            style="background: #f8fbff; border-radius: 12px; padding: 15px; border: 1px solid #e3f2fd; margin-bottom: 20px;">
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                                <label for="projectionSlider"
+                                    style="font-size: 0.85rem; font-weight: 700; color: #546e7a;">
+                                    VISUALIZAR EDAD: <span id="sliderAgeVal"
+                                        style="color: var(--ppr-blue); font-size: 1.2rem; margin-left:5px;">65</span>
+                                    AÑOS
+                                </label>
+                            </div>
+                            <input type="range" id="projectionSlider" min="18" max="70" value="65">
+                            <div
+                                style="display: flex; justify-content: space-between; font-size: 0.7rem; color: #90a4ae; font-weight: 600;">
+                                <span id="lblMinAge">Edad Actual</span>
+                                <span id="lblMaxAge">Retiro</span>
+                            </div>
+                        </div>
+
+                        <!-- BARS GROUP -->
+                        <div class="chart-container-ppr" style="width: 100%; margin-bottom: 20px;">
+                            <!-- Tradicional -->
+                            <div class="chart-row" style="margin-bottom: 12px;">
+                                <div class="chart-label" style="color: #607d8b; font-weight: 600;">Tradicional</div>
+                                <div class="chart-bar-wrapper">
+                                    <div class="chart-bar bar-trad" id="barTrad" style="width: 0%"></div>
+                                    <span class="chart-value-text" id="txtBarTrad"
+                                        style="color:#455a64; font-weight:700;">$0</span>
+                                </div>
+                            </div>
+                            <!-- PPR -->
+                            <div class="chart-row">
+                                <div class="chart-label" style="color: var(--ppr-blue); font-weight:800;">Estrategia PPR
+                                </div>
+                                <div class="chart-bar-wrapper">
+                                    <div class="chart-bar bar-ppr" id="barPPR" style="width: 0%">
+                                        <div class="bar-shine"></div>
+                                    </div>
+                                    <span class="chart-value-text" id="txtBarPPR"
+                                        style="color: var(--ppr-blue); font-weight: 800; font-size: 1rem;">$0</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CONCIENCIACIÓN (Protection Box inside Center Column) -->
+                        <div class="frosted-orange" style="margin-top: 20px;">
+                            <h4
+                                style="color:#e65100; font-size: 0.95rem; margin: 0 0 5px 0; text-align: center; font-weight: 700; line-height: 1.4;">
+                                <i class="fas fa-heartbeat"></i> ¿Qué pasaría si hoy a los <span id="age-display-text"
+                                    style="text-decoration: underline;">27</span> años ocurriera una eventualidad grave?
+                            </h4>
+                            <p
+                                style="font-size: 0.75rem; color: #78909c; text-align: center; margin-bottom: 12px; font-weight: 500;">
+                                Protección garantizada de <strong style="color:var(--ppr-blue);">100,000 UDIS</strong>
+                                tanto para Fallecimiento como para Invalidez Total y Permanente.
+                            </p>
+
+                            <!-- Comparison Grid -->
+                            <div style="display: flex; gap: 15px;">
+                                <!-- Trad -->
+                                <div
+                                    style="flex: 1; background: rgba(255,255,255,0.6); padding: 12px; border-radius: 12px; border: 1px solid #ffccbc; text-align: center;">
+                                    <strong
+                                        style="display:block; color:var(--ppr-trad-color); margin-bottom: 6px; font-size:0.75rem; letter-spacing: 0.5px;">TRADICIONAL</strong>
+                                    <span
+                                        style="display:block; color:#5d4037; font-size:0.7rem; line-height:1.2; margin-bottom: 5px;">Solo
+                                        entregamos saldo:</span>
+                                    <span id="protTrad"
+                                        style="display:block; color:var(--ppr-trad-color); font-weight:800; font-size: 1.1rem;">$0</span>
+                                    <span
+                                        style="display:block; color:#ff5722; font-size:0.7rem; margin-top:6px; font-weight:600; background: #fbe9e7; padding: 2px 6px; border-radius: 4px; display: inline-block;">⚠️
+                                        Sin Seguro</span>
+                                    <p
+                                        style="font-size: 0.6rem; color: #d84315; line-height: 1.2; margin-top: 6px; border-top: 1px dotted #ffccbc; padding-top: 4px;">
+                                        *Tu dinero perderá valor adquisitivo cada año debido a la
+                                        <strong>inflación</strong>.
+                                    </p>
+                                </div>
+                                <!-- PPR -->
+                                <div
+                                    style="flex: 1; background: rgba(255,255,255,0.85); padding: 12px; border-radius: 12px; border: 2px solid #a5d6a7; border-bottom: 4px solid var(--ppr-success-color); position: relative; overflow: hidden;">
+                                    <div
+                                        style="position: absolute; top:0; left:0; width:100%; height:4px; background: var(--ppr-success-color);">
+                                    </div>
+                                    <strong
+                                        style="display:block; color:var(--ppr-success-color); margin-bottom: 8px; font-size:0.75rem; letter-spacing: 0.5px;">ESTRATEGIA
+                                        PPR</strong>
+                                    <div style="margin-bottom: 8px;">
+                                        <span
+                                            style="font-size:0.7rem; color:#455a64; font-weight: 600;">Fallecimiento:</span>
+                                        <span id="protDeath"
+                                            style="display:block; font-weight:800; color:var(--ppr-success-color); font-size: 1.1rem;">$0</span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            style="font-size:0.7rem; color:#455a64; font-weight: 600;">Invalidez:</span>
+                                        <span id="protInv"
+                                            style="display:block; font-weight:800; color:var(--ppr-success-color); font-size: 1.1rem; margin-bottom: 5px;">$0</span>
+                                        <p
+                                            style="font-size: 0.6rem; color: #546e7a; line-height: 1.2; margin: 0; border-top: 1px dotted #a5d6a7; padding-top: 4px;">
+                                            *Por la cobertura <strong>BIT</strong>, Seguros Monterrey pagará tu plan.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COL 3: DATA (Resumen - Right) -->
+                <div class="ppr-col-data">
+                    <div class="ppr-card data-card locked-blur-red" id="dataCol">
+
+                        <!-- 1. DATA RESULTS -->
+                        <div>
+                            <div class="card-title">
+                                <i class="fas fa-wallet"></i> Resumen
+                            </div>
+
+                            <div class="data-row"
+                                style="margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center;">
+                                <span class="data-label" style="font-size:0.85rem; color:#78909c;">Aportaciones</span>
+                                <span class="data-value" id="valTrad"
+                                    style="font-weight:600; font-size:1rem; color:#546e7a;">$0</span>
+                            </div>
+
+                            <div class="data-row highlight-row"
+                                style="background:#f1f8e9; padding: 15px; border-radius:12px; border:1px solid #c5e1a5; margin-bottom: 25px; text-align: center;">
+                                <span class="data-label"
+                                    style="display:block; font-size:0.8rem; color:var(--ppr-success-color); font-weight:700; text-transform: uppercase;">Acumulado
+                                    PPR</span>
+                                <span class="data-value text-primary" id="valPPR"
+                                    style="font-weight:900; font-size:1.35rem; color:var(--ppr-success-color); margin-top: 5px; display: block; word-break: break-word;">$0</span>
+                            </div>
+
+                            <div class="divider" style="border-top:1px dashed #cfd8dc; margin: 20px 0;"></div>
+
+                            <div class="data-result" style="text-align: center;">
+                                <span class="result-label"
+                                    style="display:block; font-size:0.85rem; letter-spacing:1px; text-transform:uppercase; color:#90a4ae; font-weight: 800; margin-bottom: 5px;">Saldo
+                                    final al retiro</span>
+                                <span class="result-number" id="valFinalResult"
+                                    style="color: var(--ppr-blue); font-size: 2.2rem; display: block;">$0</span>
+
+                                <!-- Insight Block -->
+                                <div id="insightBlock"
+                                    style="margin-top: 15px; background-color: #e3f2fd; border-left: 4px solid #1565c0; padding: 12px; text-align: left; border-radius: 0 8px 8px 0;">
+                                    <p
+                                        style="font-size: 0.8rem; color: #1565c0; font-style: italic; margin: 0; line-height: 1.4;">
+                                        "Al elegir un <strong>PPR</strong> en lugar de un ahorro tradicional, has
+                                        generado un <strong id="valInsightPct">0%</strong> más de capital gracias a los
+                                        beneficios fiscales y rendimientos compuestos."
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="tax-note"
+                                style="margin-top:20px; text-align:center; font-size:0.75rem; color:#0277bd; background:#e1f5fe; padding:10px; border-radius:8px; border: 1px solid #b3e5fc;">
+                                <i class="fas fa-hand-holding-usd"></i> Deducción Fiscal Anual: <div id="valTax"
+                                    style="font-weight:800; font-size: 0.95rem;">$0</div>
+                            </div>
+                        </div>
+
+                        <!-- 2. CTA & 3. DISCLAIMER (Grouped for proximity) -->
+                        <div style="margin-top: 10px;">
+                            <a href="https://calendar.app.google/XCK49tJP5tUeQX9s6" id="whatsappBtnResult"
+                                target="_blank" class="btn btn-whatsapp-header"
+                                style="width:100%; box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4); background-color: #25d366; color: white; border: none; padding: 12px; border-radius: 8px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; transition: transform 0.2s;">
+                                <i class="fab fa-whatsapp" style="font-size: 1.1rem; margin-right: 5px;"></i>
+                                Agendar Asesoría
+                            </a>
+
+
+
+                            <p
+                                style="font-size: 0.6rem; color: #90a4ae; margin-top: 12px; font-style: italic; line-height: 1.35; text-align: justify;">
+                                <strong>Nota:</strong> Esta información es meramente ilustrativa y basada en
+                                proyecciones estimadas. No representa un contrato legal ni garantiza rendimientos
+                                futuros. Para obtener información detallada, real y personalizada a tu perfil, por favor
+                                agenda una cita conmigo presionando el botón de arriba.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Updated: NO MANUALS) -->
+    <section id="servicios" class="section services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mis Servicios Especializados</h2>
+                <p>Soluciones integrales respaldadas por la solidez de Seguros Monterrey New York Life.</p>
+            </div>
+            <div class="services-grid">
+
+                <!-- 1. Seguro de Vida -->
+                <div id="srv-vida" class="card service-card"
+                    style="background-image: url('IMAGENES DE PLANES/seguro_vida.png');">
+                    <div class="card-content">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                            <h3>Seguro de Vida</h3>
+                            <p>Protección vitalicia para garantizar el bienestar de tus seres queridos pase lo que pase.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline btn-block btn-detalles" data-plan="vida"
+                                style="margin-top:10px;">Ver Detalles</button>
+                            <div class="info-desplegable" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Plan Personal de Retiro -->
+                <div id="srv-retiro" class="card service-card"
+                    style="background-image: url('IMAGENES DE PLANES/plan_personal_retiro.png');">
+                    <div class="card-content">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-piggy-bank"></i></div>
+                            <h3>Plan Personal de Retiro</h3>
+                            <p>Tu estrategia fiscal ideal. Ahorra para tu vejez y deduce impuestos hoy.</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline btn-block btn-detalles" data-plan="retiro"
+                                style="margin-top:10px;">Ver Detalles</button>
+                            <div class="info-desplegable" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Educación -->
+                <div id="srv-educacion" class="card service-card"
+                    style="background-image: url('IMAGENES DE PLANES/educacion.png');">
+                    <div class="card-content">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-graduation-cap"></i></div>
+                            <h3>Educación</h3>
+                            <p>Asegura la universidad de tus hijos desde hoy con un fondo garantizado.</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline btn-block btn-detalles" data-plan="educacion"
+                                style="margin-top:10px;">Ver Detalles</button>
+                            <div class="info-desplegable" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Gastos Médicos Mayores -->
+                <div id="srv-gmm" class="card service-card"
+                    style="background-image: url('IMAGENES DE PLANES/gastos_medicos.png');">
+                    <div class="card-content">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-heartbeat"></i></div>
+                            <h3>Gastos Médicos Mayores</h3>
+                            <p>Acceso a la mejor medicina privada en México para cuidar tu salud y patrimonio.</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline btn-block btn-detalles" data-plan="gastos_medicos"
+                                style="margin-top:10px;">Ver Detalles</button>
+                            <div class="info-desplegable" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Plan de Vida Mujer -->
+                <div id="srv-mujer" class="card service-card"
+                    style="background-image: url('IMAGENES DE PLANES/vida_mujer.png');">
+                    <div class="card-content">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-female"></i></div>
+                            <h3>Plan de Vida Mujer</h3>
+                            <p>El seguro diseñado para ti: Ahorro, Protección y Beneficios exclusivos.</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline btn-block btn-detalles" data-plan="vida_mujer"
+                                style="margin-top:10px;">Ver Detalles</button>
+                            <div class="info-desplegable" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Ahorro a Mediano Plazo -->
+                <div id="srv-ahorro" class="card service-card"
+                    style="background-image: url('IMAGENES DE PLANES/ahorro_mediano_plazo.png');">
+                    <div class="card-content">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-coins"></i></div>
+                            <h3>Ahorro a Mediano Plazo</h3>
+                            <p>Multiplica tu dinero y cumple tus metas (viajes, casa, negocio) con seguridad.</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline btn-block btn-detalles" data-plan="ahorro_medio"
+                                style="margin-top:10px;">Ver Detalles</button>
+                            <div class="info-desplegable" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section (Dark Mode Redesign) -->
+    <section id="educacion" class="section udi-section">
+        <!-- Hero Graph Centerpiece -->
+        <div class="graph-card">
+            <div class="graph-header">
+                <h3>¿Cómo hacemos crecer tu dinero?</h3>
+                <p class="udi-highlight">Histórico y Proyección: Pesos vs UDI</p>
+                <div
+                    style="max-width: 600px; margin: 15px auto 0; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px; border-left: 3px solid #10B981;">
+                    <p style="font-size: 0.9rem; color: #e2e8f0; margin: 0; line-height: 1.4;">
+                        <strong>¿Qué es la UDI?</strong> Es la única moneda que crece junto con la inflación, <br
+                            class="d-none d-md-block">
+                        garantizando que tu dinero nunca pierda su poder de compra.
+                    </p>
+                </div>
+            </div>
+
+            <div class="graph-container">
+                <!-- SVG Hero Graph -->
+                <svg viewBox="0 0 650 350" class="udi-svg" preserveAspectRatio="xMidYMid meet">
+                    <defs>
+                        <linearGradient id="gradientFill" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.2" /> <!-- Teal/Cyan Start -->
+                            <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0" /> <!-- Transparent End -->
+                        </linearGradient>
+                        <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
+                            <stop offset="0%" stop-color="#22c55e" /> <!-- Green -->
+                            <stop offset="100%" stop-color="#2DD4BF" /> <!-- Teal/Cyan -->
+                        </linearGradient>
+                    </defs>
+
+                    <!-- Axis Lines (Subtle White) -->
+                    <line x1="50" y1="300" x2="600" y2="300" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+                    <!-- Grid Lines (Dashed White) -->
+                    <line x1="50" y1="180" x2="600" y2="180" stroke="rgba(255,255,255,0.1)" stroke-width="1"
+                        stroke-dasharray="4,4" class="grid-line" />
+                    <line x1="50" y1="50" x2="600" y2="50" stroke="rgba(255,255,255,0.1)" stroke-width="1"
+                        stroke-dasharray="4,4" class="grid-line" />
+
+                    <!-- Axis Lines (White) -->
+                    <line x1="50" y1="300" x2="600" y2="300" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+                    <line x1="50" y1="50" x2="50" y2="300" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+
+                    <!-- X-Axis Labels (Years) - White -->
+                    <text x="50" y="330" text-anchor="middle" class="graph-year"
+                        style="fill:rgba(255,255,255,0.7); font-size: 11px;">1995</text>
+                    <text x="210" y="330" text-anchor="middle" class="graph-year"
+                        style="fill:rgba(255,255,255,0.7); font-size: 11px;">2005</text>
+                    <text x="440" y="330" text-anchor="middle" class="graph-year"
+                        style="fill:rgba(255,255,255,0.7); font-size: 11px;">2026</text>
+                    <text x="600" y="330" text-anchor="middle" class="graph-year"
+                        style="fill:rgba(255,255,255,0.7); font-size: 11px;">2060</text>
+
+                    <!-- Y-Axis Labels (Money) - White -->
+                    <text x="40" y="300" text-anchor="end" class="graph-value"
+                        style="fill:rgba(255,255,255,0.7); font-size: 11px;">$ 1.00</text>
+                    <text x="40" y="180" text-anchor="end" class="graph-value"
+                        style="fill:rgba(255,255,255,0.7); font-size: 11px;">$ 8.00</text>
+                    <text x="40" y="50" text-anchor="end" class="graph-value"
+                        style="fill:rgba(255,255,255,0.7); font-size: 11px;">$ 35.00</text>
+
+                    <!-- Spline Area Fill (Deep Emerald - Overlay) -->
+                    <path d="M 50 300 C 250 300, 400 240, 600 50 L 600 300 L 50 300 Z" fill="rgba(16, 185, 129, 0.15)"
+                        class="graph-area-spline-green" />
+
+                    <!-- Spline Line (Brilliant Green on Dark) -->
+                    <path d="M 50 300 C 250 300, 400 240, 600 50" fill="none" stroke="#10B981" stroke-width="5"
+                        stroke-linecap="round" class="graph-line-spline-green"
+                        style="filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.6));" />
+
+                    <!-- "HOY" Indicator (White Dashed) -->
+                    <line x1="440" y1="120" x2="440" y2="300" stroke="rgba(255,255,255,0.4)" stroke-width="1"
+                        stroke-dasharray="5,5" class="hoy-line-guide" />
+                    <text x="440" y="110" text-anchor="middle" class="hoy-label"
+                        style="fill:#ffffff; font-weight:700; font-size: 12px; letter-spacing: 1px;">HOY</text>
+
+                    <!-- Data Points (Neon Blue) -->
+                    <!-- Start -->
+                    <circle cx="50" cy="300" r="5" fill="#0ea5e9" stroke="#ffffff" stroke-width="2"
+                        class="visible-dot-blue" />
+                    <!-- HOY (Adjusted Y to sit on curve) -->
+                    <circle cx="440" cy="120" r="6" fill="#0ea5e9" stroke="#ffffff" stroke-width="2"
+                        class="visible-dot-blue" />
+                    <!-- End -->
+                    <circle cx="600" cy="50" r="6" fill="#0ea5e9" stroke="#ffffff" stroke-width="2"
+                        class="visible-dot-blue" />
+
+                    <!-- Large Hit Areas for Tooltips (Invisible) -->
+                    <circle cx="50" cy="300" r="20" fill="transparent" class="hit-area" data-year="1995"
+                        data-amount="$1.00 MXN" />
+                    <circle cx="440" cy="120" r="20" fill="transparent" class="hit-area" data-year="2026"
+                        data-amount="$8.17 MXN" />
+                    <circle cx="600" cy="50" r="20" fill="transparent" class="hit-area" data-year="2060"
+                        data-amount="$35.00+ Proyección" />
+
+                    <!-- Hero Value (Big Text) -->
+                    <!-- Hero Value (Big Text) -->
+                    <text x="600" y="30" text-anchor="end" class="hero-amount"
+                        style="fill:#10B981; font-weight:800; font-size:18px;">$35.00+</text>
+                    <text x="600" y="45" text-anchor="end" class="hero-subtitle"
+                        style="fill:rgba(255,255,255,0.7); font-size:11px;">al Retiro</text>
+
+                </svg>
+
+                <!-- Tooltip Element -->
+                <div class="graph-tooltip">
+                    <span class="tooltip-year"></span>
+                    <span class="tooltip-amount"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comparison Cards (Modern Dark Glass) -->
+        <div class="comparison-container">
+
+
+            <!-- Card 2: UDI (Standard Block) -->
+            <div class="ppr-card comparison-card-standard card-udis-standard">
+                <span class="card-tag tag-udis">Blindaje Total</span>
+                <i class="fas fa-shield-alt card-icon-large"></i>
+                <div class="card-title-block">
+                    <h4>¿Cómo hacemos que tu dinero crezca?</h4>
+                </div>
+                <div class="card-desc-standard">
+                    <p><strong>Crecimiento Real</strong><br>La UDI actualiza su valor diariamente con la inflación.
+                        Tu ahorro crece automáticamente, garantizando que siempre compras más.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Education Column -->
+    <!-- Calculator Column (Left) -->
+    <!-- Fiscal Section (Calculator + Education) -->
+    <section id="fiscal-benefits" class="section fiscal-section" style="background-color: #f9fafb; padding: 60px 0;">
+        <div class="container fiscal-grid">
+            <!-- Calculator Column (Left) -->
+            <div class="fiscal-col-calc" id="calculadora-fiscal">
+                <div class="card-tax">
+                    <div class="card-header-tax">
+                        <i class="fas fa-calculator me-2"></i> Calculadora Fiscal
+                    </div>
+                    <div class="card-body-tax">
+                        <p style="font-size:0.9rem; text-align:center; margin-bottom:20px; color:#666;">Descubre
+                            cuánto te devolvería el SAT este año si comienzas hoy.</p>
+
+                        <!-- Input Ingresos -->
+                        <div class="input-group-tax">
+                            <label class="input-label-tax">Ingresos Brutos Anuales</label>
+                            <input type="number" id="incomeInput" class="input-custom" value="600000" placeholder="$">
+                        </div>
+
+                        <!-- Input Ahorro -->
+                        <div class="input-group-tax">
+                            <label class="input-label-tax">¿Cuánto quieres ahorrar al mes?</label>
+                            <input type="number" id="savingsInput" class="input-custom" value="5000" placeholder="$">
+                        </div>
+
+                        <button class="btn-calc" onclick="calculateTax()">
+                            CALCULAR DEVOLUCIÓN
+                        </button>
+
+                        <!-- RESULTADOS -->
+                        <div id="resultsArea" class="result-box">
+                            <div style="text-align:center; margin-bottom:15px;">
+                                <span class="result-badge">¡Beneficio Detectado!</span>
+                                <h5 class="result-title">En tu Declaración Anual recibirías:</h5>
+                                <div class="refund-amount" id="refundVal">$0</div>
+                            </div>
+
+                            <!-- Tarjeta de Desglose Matemático -->
+                            <div class="breakdown-card">
+                                <p
+                                    style="font-size:0.8rem; color:#999; font-weight:700; text-transform:uppercase; border-bottom:1px solid #eee; padding-bottom:5px; margin-bottom:10px;">
+                                    Tu Costo Real:</p>
+
+                                <div class="breakdown-row">
+                                    <span>Inversión en tu Retiro:</span>
+                                    <span style="font-weight:700; color:#333;" id="inputValDisplay">$0</span>
+                                </div>
+                                <div class="breakdown-row">
+                                    <span>(-) Devolución del SAT:</span>
+                                    <span style="font-weight:700; color:#2E7D32;" id="refundValMinus">-$0</span>
+                                </div>
+
+                                <div class="divider-dashed"></div>
+
+                                <div style="display:flex; justify-content:space-between; align-items:center;">
+                                    <span style="font-weight:700; color:var(--primary-color); font-size:0.9rem;">Costo
+                                        REAL final:</span>
+                                    <span style="font-weight:700; color:var(--primary-color); font-size:1.2rem;"
+                                        id="realCostVal">$0</span>
+                                </div>
+                                <p
+                                    style="font-size:0.7rem; text-align:right; margin-top:5px; font-style:italic; color:#888;">
+                                    ¡Tu plan te sale más barato!
+                                </p>
+                            </div>
+
+                            <!-- WHATSAPP -->
+                            <a id="whatsappLink"
+                                href="https://wa.me/528334407688?text=Hola,%20me%20interesa%20recibir%20una%20cotización%20personalizada%20sobre%20el%20plan%20de%20ahorro%20y%20me%20gustaría%20agendar%20una%20cita%20para%20conocer%20los%20detalles.%20¿Podrían%20ayudarme?"
+                                target="_blank" class="whatsapp-btn-fiscal">
+                                <i class="fab fa-whatsapp me-2" style="margin-right:5px;"></i> Quiero aprovechar
+                                esto
+                            </a>
+                        </div>
+
+                        <div style="margin-top:15px; text-align:center;">
+                            <small style="font-size: 0.65rem; color: #999;">
+                                Cálculo estimado Ley ISR 2025. UMA: $41,273.52.
+                            </small>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Column (Right) -->
+            <div class="fiscal-col-edu">
+                <div class="fiscal-card-edu">
+                    <i class="fas fa-graduation-cap fiscal-icon"></i>
+                    <h2 class="fiscal-title" style="text-align: center;">Maximiza tu ahorro con beneficios fiscales
+                        estratégicos</h2>
+                    <p style="color:#555; margin-bottom:20px;">No solo se trata de ahorrar, se trata de hacerlo
+                        inteligentemente. La ley en México premia a quienes planean su futuro.</p>
+
+                    <hr style="opacity:0.2; margin: 30px 0;">
+
+                    <div style="margin-bottom: 30px;">
+                        <span class="article-badge"><i class="fas fa-book me-1"></i> ARTÍCULO 151 LISR (Fracción
+                            V)</span>
+                        <h5 style="font-weight:700; color:var(--text-color); margin-bottom:10px;">Deducibilidad: El
+                            SAT paga hoy</h5>
+                        <p style="font-size:0.9rem; color:#666;">
+                            Las aportaciones que realices a tu Plan Personal de Retiro (PPR) pueden restarse de tus
+                            ingresos anuales. Esto reduce tu base gravable, lo que significa que <strong>el SAT te
+                                devuelve dinero</strong> en tu declaración anual de abril.
+                        </p>
+                        <ul style="font-size:0.85rem; color:#777; margin-top:10px; padding-left:20px; list-style:disc;">
+                            <li>Tope: 10% de tus ingresos anuales o 5 UMAs ($206k aprox).</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span class="article-badge"><i class="fas fa-piggy-bank me-1"></i> ARTÍCULO 93 LISR
+                            (Fracción IV)</span>
+                        <h5 style="font-weight:700; color:var(--text-color); margin-bottom:10px;">Exención: Tu
+                            dinero libre mañana</h5>
+                        <p style="font-size:0.9rem; color:#666;">
+                            La magia ocurre al final. Si retiras tu dinero al cumplir <strong>65 años</strong>, el
+                            monto total (ahorro + rendimientos generados durante años) es <strong>100% libre de
+                                impuestos</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testim" class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lo que dicen mis clientes</h2>
+                <p>Historias reales de familias protegidas.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Lo q mas me gusto es q no te presionan para venderte como otros, se
+                        adaptan a lo q uno puede pagar de vdd. Mil grs por la paciencia!"</p>
+                    <div class="testimonial-author">Carlos Hernández</div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Gracias x la asesoria la vdd yo no le entendia nada a eso de los
+                        seguros y me explicaron super bien... ahora ya estoy mas tranquila con lo de mis hijos!!
+                        recomendada 100%"</p>
+                    <div class="testimonial-author">Mariana López</div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"X fin empese mi ahorro para el retiro!! me daba miedo empesar pero con
+                        su ayuda todo fue mas facil... ya era hora de pensar en el futuro"</p>
+                    <div class="testimonial-author">Roberto García</div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Excelente servicio!! resolvieron todas mis dudas de mis gastos medicos
+                        q ya me tenian preocupada. Muy amables y profesionales"</p>
+                    <div class="testimonial-author">Sofía Ramírez</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-envelope"></i> deleijaseguros@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +52 833 440 7688</p>
+                    <p><a href="https://wa.me/message/2VVH7ZQUM4ACG1" target="_blank"><i class="fab fa-whatsapp"></i>
+                            WhatsApp Directo</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Tampico, Tamps.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#calculadora">Calculadora</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sígueme</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/14Tj6b41yao/?mibextid=wwXIfr" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/deleijaseguros?igsh=MXViMWdreHd6eTk5cA%3D%3D&utm_source=qr"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Edson De Leija. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
